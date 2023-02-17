@@ -11,11 +11,9 @@ import {
   } from '@nestjs/common';
   import { IUserEntity } from './entities/user.entity';
   import { PartialUserDto } from './services/dto/partialUserImport.dto';
-  import { UserDto } from './services/dto/userinput.dto';
+  import { UserDto } from './services/dto/userInput.dto';
   import { UserService } from './services/user.service';
-  import { IHttpResponse } from 'src/utils/httpResponse';
   import { Response } from 'express';
-  import { Exception } from 'src/utils/exceptions/IException';
   import { HandleException } from 'src/utils/exceptions/exceptionsHelper';
   
   
