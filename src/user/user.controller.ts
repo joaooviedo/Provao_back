@@ -9,10 +9,10 @@ import {
     Post,
     Res,
   } from '@nestjs/common';
-  import { IUserEntity } from './entities/user.entity';
-  import { PartialUserDto } from './services/dto/partialUserImport.dto';
-  import { UserDto } from './services/dto/userInput.dto';
-  import { UserService } from './services/user.service';
+  import { IUserEntity } from 'src/user/entities/user.entity';
+  import { PartialUserDto } from 'src/user/services/dto/partialUserImport.dto';
+  import { UserDto } from 'src/user/services/dto/userInput.dto';
+  import { UserService } from 'src/user/services/user.service';
   import { Response } from 'express';
   import { HandleException } from 'src/utils/exceptions/exceptionsHelper';
   
