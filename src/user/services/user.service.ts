@@ -1,6 +1,6 @@
 import { randomUUID } from 'node:crypto';
 import { IUserEntity } from '../entities/user.entity';
-import { UserDto } from './dto/userinput.dto';
+import { UserDto } from 'src/user/services/dto/userInput.dto';
 import { PartialUserDto } from './dto/partialUserImport.dto';
 import { UserRepository } from '../user.repository';
 import { Injectable } from '@nestjs/common';
